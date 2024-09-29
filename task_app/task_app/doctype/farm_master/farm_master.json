@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 12:15:24.825194",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "survey_no",
+  "farmer_name",
+  "village",
+  "dist",
+  "farm_area_in_acres",
+  "soil_type_black__red__grey",
+  "irrigation_method_river__borewell__other",
+  "farm_location_geo_location__latitude_and_longitute_from_web"
+ ],
+ "fields": [
+  {
+   "fieldname": "survey_no",
+   "fieldtype": "Int",
+   "label": "Survey No"
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "dist",
+   "fieldtype": "Data",
+   "label": "Dist"
+  },
+  {
+   "fieldname": "farm_area_in_acres",
+   "fieldtype": "Int",
+   "label": "Farm Area in Acres"
+  },
+  {
+   "fieldname": "soil_type_black__red__grey",
+   "fieldtype": "Data",
+   "label": "Soil Type (Black / Red / Grey)"
+  },
+  {
+   "fieldname": "irrigation_method_river__borewell__other",
+   "fieldtype": "Data",
+   "label": "Irrigation Method (River / Borewell / Other)"
+  },
+  {
+   "fieldname": "farm_location_geo_location__latitude_and_longitute_from_web",
+   "fieldtype": "Data",
+   "label": "Farm location (Geo location  Latitude and Longitute from web)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 12:24:49.806200",
+ "modified_by": "Administrator",
+ "module": "Task App",
+ "name": "Farm Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

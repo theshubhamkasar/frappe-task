@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 13:17:42.433496",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm_master",
+  "survey_no",
+  "farmer_name",
+  "village",
+  "dist",
+  "farm_area_in_acres",
+  "soil_type_black__red__grey",
+  "irrigation_method_river__borewell__other",
+  "crop_master",
+  "crop_name",
+  "crop_variety",
+  "maturity_period_in_days",
+  "plantation_date",
+  "fertilizer_calculation"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_master",
+   "fieldtype": "Link",
+   "label": "Farm Master",
+   "options": "Farm Master"
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name"
+  },
+  {
+   "fieldname": "dist",
+   "fieldtype": "Data",
+   "label": "Dist"
+  },
+  {
+   "fieldname": "farm_area_in_acres",
+   "fieldtype": "Int",
+   "label": "Farm Area in Acres"
+  },
+  {
+   "fieldname": "soil_type_black__red__grey",
+   "fieldtype": "Data",
+   "label": "Soil Type (Black / Red / Grey)"
+  },
+  {
+   "fieldname": "crop_name",
+   "fieldtype": "Data",
+   "label": "Crop Name"
+  },
+  {
+   "fieldname": "crop_variety",
+   "fieldtype": "Data",
+   "label": "Crop Variety"
+  },
+  {
+   "fieldname": "maturity_period_in_days",
+   "fieldtype": "Data",
+   "label": "Maturity Period in Days"
+  },
+  {
+   "fieldname": "plantation_date",
+   "fieldtype": "Date",
+   "label": "Plantation Date"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "crop_master",
+   "fieldtype": "Link",
+   "label": "Crop Data",
+   "options": "Crop Master"
+  },
+  {
+   "fieldname": "survey_no",
+   "fieldtype": "Int",
+   "label": "Survey No"
+  },
+  {
+   "fieldname": "irrigation_method_river__borewell__other",
+   "fieldtype": "Data",
+   "label": "Irrigation Method (River / Borewell / Other)"
+  },
+  {
+   "fieldname": "fertilizer_calculation",
+   "fieldtype": "Table",
+   "label": "Fertilizer Calculation",
+   "options": "Fertilizer Calculation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 14:52:14.330334",
+ "modified_by": "Administrator",
+ "module": "Task App",
+ "name": "Plantation Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

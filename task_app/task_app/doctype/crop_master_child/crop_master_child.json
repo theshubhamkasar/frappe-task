@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 12:41:45.252876",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "dose",
+  "days",
+  "fertilizer_name",
+  "quantity",
+  "units_of_measure"
+ ],
+ "fields": [
+  {
+   "fieldname": "dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dose"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Days"
+  },
+  {
+   "fieldname": "fertilizer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fertilizer Name"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "units_of_measure",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Units Of Measure"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-29 12:50:26.830873",
+ "modified_by": "Administrator",
+ "module": "Task App",
+ "name": "Crop Master Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

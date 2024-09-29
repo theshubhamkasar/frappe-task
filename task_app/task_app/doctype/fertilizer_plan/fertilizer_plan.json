@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 15:37:14.464525",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plantation_master",
+  "crop_name",
+  "crop_variety",
+  "maturity_period_in_days",
+  "dose",
+  "fertilizer_name",
+  "quantity",
+  "suggested_date",
+  "units_of_measure"
+ ],
+ "fields": [
+  {
+   "fieldname": "plantation_master",
+   "fieldtype": "Link",
+   "label": "Plantation Master",
+   "options": "Plantation Master"
+  },
+  {
+   "fieldname": "crop_name",
+   "fieldtype": "Data",
+   "label": "Crop Name"
+  },
+  {
+   "fieldname": "crop_variety",
+   "fieldtype": "Data",
+   "label": "Crop Variety"
+  },
+  {
+   "fieldname": "maturity_period_in_days",
+   "fieldtype": "Int",
+   "label": "Maturity Period in Days"
+  },
+  {
+   "fieldname": "dose",
+   "fieldtype": "Data",
+   "label": "Dose"
+  },
+  {
+   "fieldname": "fertilizer_name",
+   "fieldtype": "Data",
+   "label": "Fertilizer Name"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "suggested_date",
+   "fieldtype": "Date",
+   "label": "Suggested Date"
+  },
+  {
+   "fieldname": "units_of_measure",
+   "fieldtype": "Data",
+   "label": "Units Of Measure"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 15:44:26.031067",
+ "modified_by": "Administrator",
+ "module": "Task App",
+ "name": "Fertilizer Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
